@@ -101,7 +101,7 @@ ul {
 	letter-spacing: 0.02em;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav__link:hover,
@@ -135,6 +135,8 @@ ul {
 }
 
 .auth-nav__link {
+	display: flex;
+	align-items: center;
 	color: var(--primary-text-color);
 	font-weight: 500;
 	line-height: 1.14;
@@ -142,12 +144,6 @@ ul {
 	padding-top: 32px;
 	padding-bottom: 32px;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.auth-nav__link,
-.auth-nav__link {
-	display: flex;
-	align-items: center;
 }
 
 .auth-nav__link:hover,
@@ -213,8 +209,7 @@ ul {
 	border: none;
 	border-radius: 4px;
 	margin-top: 30px;
-	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
-
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover, 
